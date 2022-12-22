@@ -23,6 +23,8 @@ body {
 
 .titulo {
   color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 4px;
 }
 
 ul {
@@ -195,7 +197,7 @@ section {
   min-height: 100vh;
   padding: 8em 5em 2em 5em;
   background-color: var(--red);
-  opacity: 0.8;
+  opacity: 0.9;
   background-image: url("");
   clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
 }
