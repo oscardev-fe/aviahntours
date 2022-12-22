@@ -78,6 +78,7 @@ nav ul li:not(#burger) {
 }
 
 #burger {
+  padding-top: 5px;
   width: min-content;
   height: 28px;
   display: flex;
