@@ -11,8 +11,18 @@ body {
 
   --black: #000000;
   --white: #FFFFFF;
-  --pill: #FF0000;
+  --pill: #000000;
   --red: #FF0000;
+  --instagram: #C13584; 
+  --facebook: #263962;
+  --twitter:  #00acee;
+  --whatsapp:  #075E54;
+  background-color: var(--red);
+  opacity: 0.9;
+}
+
+.titulo {
+  color: var(--white);
 }
 
 ul {
@@ -65,6 +75,7 @@ nav ul li:not(#burger) {
   justify-content: space-evenly;
   cursor: pointer;
 }
+
 #burger span {
   display: block;
   height: 3px;
@@ -73,6 +84,7 @@ nav ul li:not(#burger) {
   border-radius: 200px;
   transition: transform 0.3s 0.3s;
 }
+
 
 .active span:nth-of-type(1) {
   transform: translateY(-3px) scaleX(1.3);
@@ -183,6 +195,7 @@ section {
   min-height: 100vh;
   padding: 8em 5em 2em 5em;
   background-color: var(--red);
+  opacity: 0.8;
   background-image: url("");
   clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
 }
@@ -261,6 +274,20 @@ section {
   font-size: 1rem !important;
   cursor: pointer;
   color: var(--black);
+}
+
+section ul li a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+section ul li a:hover {
+  text-decoration: none;
+  color: var(--red);
+  background-color: var(--white);
+  padding: 8px;
+  border-radius: 3px;
+
 }
 
 @media screen and (max-width: 600px) {
