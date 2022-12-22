@@ -203,7 +203,7 @@ section {
   z-index: 9;
   min-height: 100vh;
   padding: 8em 5em 2em 5em;
-  background-color: var(--red);
+  background-color: var(--white);
   opacity: 0.9;
   background-image: url("");
   clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
@@ -285,15 +285,19 @@ section {
   color: var(--black);
 }
 
+section ul{
+  padding-top: 30px;
+}
+
 section ul li a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--red);
 }
 
 section ul li a:hover {
   text-decoration: none;
-  color: var(--red);
-  background-color: var(--white);
+  color: var(--white);
+  background-color: var(--red);
   padding: 8px;
   border-radius: 3px;
 
