@@ -17,7 +17,7 @@ body {
   --facebook: #263962;
   --twitter:  #00acee;
   --whatsapp:  #075E54;
-  background-color: var(--red);
+  /* background-color: var(--red); */
   opacity: 0.9;
 }
 
@@ -44,17 +44,18 @@ header {
 /*  NAV: Top Menu Section
 ----------------------------------------------- */
 nav {
+  background-color: white;
   width: 100%;
   position: fixed;
   z-index: 10;
-  padding: 1em 5em;
+  padding: 0 10px;
   display: flex;
   justify-content: space-between;
 }
 
-nav div img {
-width: 170px;
-margin: 0;
+
+.logo {
+  width: 70px;
 }
 
 nav h1 {
@@ -305,7 +306,7 @@ section ul li a:hover {
 
 @media screen and (max-width: 600px) {
   nav {
-    padding: 1em 2em;
+    padding: 0 8px;
   }
   nav h1 {
     font-size: 0.9rem;
